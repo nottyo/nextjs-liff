@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import Head from 'next/head'
 import Image from 'next/image'
 
 
@@ -14,6 +15,9 @@ export default function Profile() {
 
   return (
     <section>
+      <Head>
+        <title>My Profile</title>
+      </Head>
       <h1>Profile</h1>
       <div>
         {profile.pictureUrl && <Image
