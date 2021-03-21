@@ -14,6 +14,7 @@ export default function Profile() {
     setLiff({
       os: liff.getOS(),
       language: liff.getLanguage(),
+      isInClient: liff.isInClient(),
     })
   })
 
@@ -30,6 +31,7 @@ export default function Profile() {
         <div>Name: {profile.displayName}</div>
         <div>OS: {liff.os}</div>
         <div>Language: {liff.language}</div>
+        <div>isInClient: {liff.isInClient}</div>
       </div>
     </section>
   )
