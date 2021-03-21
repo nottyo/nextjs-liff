@@ -2,6 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+### Configuration
+- Create .env.local
+- Add configuration parameter NEXT_PUBLIC_LIFF_ID as your LIFF ID
+
 First, run the development server:
 
 ```bash
