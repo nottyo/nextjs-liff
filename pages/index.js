@@ -12,13 +12,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to LIFF App developed with<a href="https://nextjs.org">Next.js!</a>
+          Welcome to LIFF App developed by <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
-         Click To See My {' '}
          <Link href="/profile">
-          <a>Profile</a>
+          <a>Click To See My Profile</a>
         </Link>
         </p>
 
