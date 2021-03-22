@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -14,6 +15,12 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to LIFF App developed by <a href="https://nextjs.org">Next.js!</a>
         </h1>
+        <Image
+          src="/images/LINE_logo.webp"
+          width={200}
+          height={200}
+          alt="LINE Frontend Framework"
+        />
 
         <p className={styles.description}>
          <Link href="/profile">
